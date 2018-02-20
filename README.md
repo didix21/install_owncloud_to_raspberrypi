@@ -91,3 +91,11 @@ $ sudo chown -R www-data:www-data /var/www/html/owncloud
 
 ### Change data save path
 [Link of tutorial](https://www.digitalocean.com/community/tutorials/how-to-move-the-data-directory-for-owncloud-on-ubuntu-16-04)
+
+### Refresh owncloud files
+If you add directly to the server files and folder owncloud need to be refreshed. The following command do the previous described:
+```bash
+
+$ sudo -u www-data php /var/www/owncloud/console.php files:scan --all
+
+```
