@@ -99,3 +99,7 @@ If you add directly to the server files and folder owncloud need to be refreshed
 $ sudo -u www-data php /var/www/owncloud/console.php files:scan --all
 
 ```
+
+### Add SSL Security 
+Follo this web page instroctuions 
+[http://blog.ragasys.es/configurar-ssl-https-en-owncloud](http://blog.ragasys.es/configurar-ssl-https-en-owncloud)
