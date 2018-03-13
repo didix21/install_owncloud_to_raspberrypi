@@ -103,3 +103,16 @@ $ sudo -u www-data php /var/www/owncloud/console.php files:scan --all
 ### Add SSL Security 
 Follo this web page instroctuions 
 [http://blog.ragasys.es/configurar-ssl-https-en-owncloud](http://blog.ragasys.es/configurar-ssl-https-en-owncloud)
+
+### Automount a HDD
+First look for HDD's UUID
+```bash
+$ sudo blkid /dev/sda1
+```
+Answer: UUID=c6cb1635-a1cc-4c9b-aa1d-11b26d0f10b9 
+Then:
+```bash
+$ sudo nano /etc/fstab
+```
+And copy:
+UUID=c6cb1635-a1cc-4c9b-aa1d-11b26d0f10b9 /media/hdd_cloud auto nosuid,nodev,nofail 0 0
