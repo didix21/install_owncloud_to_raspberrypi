@@ -116,3 +116,6 @@ $ sudo nano /etc/fstab
 ```
 And copy:
 UUID=c6cb1635-a1cc-4c9b-aa1d-11b26d0f10b9 /media/hdd_cloud auto nosuid,nodev,nofail 0 0
+
+### Install noip2 in Raspberrypi
+[https://www.realdroid.es/2016/10/29/configurar-no-ip-para-raspberry-pi-y-de-paso-que-es-no-ip/](https://www.realdroid.es/2016/10/29/configurar-no-ip-para-raspberry-pi-y-de-paso-que-es-no-ip/)
